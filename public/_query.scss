@@ -1,0 +1,128 @@
+@media only screen and (max-width: 1000px) {
+  .svgImg {
+    width: 50% !important;
+  }
+  main {
+    justify-content: start !important;
+    padding-top: 0 !important;
+  }
+  .instruction {
+    width: 50% !important;
+  }
+  .pop {
+    width: 70% !important;
+    height: 80% !important;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 640px) {
+  h1,
+  h2,
+  h4,
+  p,
+  button {
+    width: 100% !important;
+    text-align: center !important;
+  }
+  .bg-pop {
+    .bg-wht {
+      width: 80% !important;
+    }
+  }
+  main {
+    .details {
+      display: none !important;
+    }
+    .bg-wht {
+      width: 100% !important;
+    }
+    height: auto !important;
+    .greet {
+      &:after {
+        width: 100% !important;
+        height: 2px;
+      }
+    }
+    flex-direction: column;
+    section,
+    aside {
+      padding: 20px !important;
+    }
+    section {
+      width: 100% !important;
+    }
+  }
+  svg {
+    width: 80% !important;
+  }
+
+  .instruction {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1000px) and (orientation: landscape) {
+  main {
+    .details {
+      width: auto !important;
+      p.txt-drk {
+        width: 100% !important;
+      }
+    }
+    .moves,
+    .details {
+      padding: 10px;
+    }
+    .moves {
+      width: 100% !important;
+    }
+  }
+  .pop {
+    button {
+      width: 50% !important;
+    }
+  }
+  section.ins {
+    height: auto !important;
+  }
+}
+
+/* Portrait IPAD */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  h1,
+  h4,
+  p,
+  button {
+    width: 100% !important;
+    text-align: center;
+  }
+  main {
+    .greet {
+      &:after {
+        width: 100% !important;
+        height: 2px;
+      }
+    }
+    flex-direction: column;
+    section,
+    aside {
+      width: auto !important;
+      padding: 20px !important;
+    }
+    section.greetMes {
+      height: 30% !important;
+    }
+    .chips {
+      display: none;
+    }
+  }
+  .pop {
+    button {
+      width: 50% !important;
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+}

@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Space+Mono:wght@400;700&display=swap");
+@import "_var";
+@import "_def";
+@import "_struct";
+@import "_query";
+
+.btn-ctrl {
+  transition: 0.5s ease-in-out;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.down {
+  transform: translateY(10%);
+  -webkit-transform: translateY(10%);
+}
+.back {
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+}
+
+.mono {
+  font-family: $mono;
+}
+
+.disabled {
+  fill: $red;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 7vw, 7rem);
+}
+h2 {
+  font-size: clamp(2rem, 3vw, 3rem);
+}
+h4 {
+  font-size: clamp(1.3rem, 1.5vw, 1.8rem);
+}
+p,
+button {
+  font-size: clamp(1rem, 1.1vw, 1.3rem);
+}
+
+.cls-1 {
+  isolation: isolate;
+}
+
+.cls-2,
+.cls-23 {
+  fill: #13264a;
+}
+
+.cls-22,
+.cls-3 {
+  fill: #4f7abd;
+}
+
+.cls-4,
+.cls-5 {
+  fill: #f3f3f4;
+}
+
+.cls-5 {
+  opacity: 0.42;
+}
+
+.cls-6 {
+  fill: #0c1627;
+}
+
+.cls-7 {
+  fill: #0d1a2f;
+  opacity: 0.5;
+}
+
+.cls-8 {
+  fill: #1b3d6d;
+}
+
+.cls-24,
+.cls-9 {
+  fill: #0f1f37;
+}
+
+.cls-10 {
+  fill: #ffca1a;
+}
+
+.cls-11 {
+  transition: 0.5s ease-in-out;
+  fill: rgb(230, 230, 230);
+  &:hover {
+    fill: rgb(255, 255, 255);
+  }
+}
+
+.cls-12 {
+  fill: #5e5f5f;
+  opacity: 0.2;
+}
+
+.cls-13 {
+  fill: #acd14f;
+}
+
+.cls-14 {
+  mix-blend-mode: overlay;
+}
+
+.cls-15 {
+  fill: none;
+}
+
+.cls-16 {
+  fill: #bce4e7;
+  opacity: 0.6;
+}
+
+.cls-17 {
+  fill: #8caeaf;
+}
+
+.cls-18 {
+  fill: #224c88;
+}
+
+.cls-19 {
+  fill: #1d4177;
+}
+
+.cls-20 {
+  fill: #0f1e37;
+}
+
+.cls-21 {
+  transition: 1s ease-in-out;
+  animation: change 1s infinite;
+}
+
+@keyframes change {
+  0% {
+    fill: #face41;
+  }
+  100% {
+    fill: #ffda62;
+  }
+}
+
+.cls-22,
+.cls-23 {
+  font-size: 35.76px;
+  font-family: Unispace-Bold, Unispace;
+  font-weight: 700;
+}
+
+.cls-24 {
+  opacity: 0.54;
+}
+
+.cls-25 {
+  fill: #82c45a;
+  transition: 0.5s ease-in-out;
+  &:hover {
+    fill: #9aeb68;
+  }
+}
+
+.cls-26 {
+  fill: #42b6be;
+}
+
+.cls-27 {
+  fill: #eaae34;
+}
+
+.cls-28 {
+  fill: #b97cb5;
+}
